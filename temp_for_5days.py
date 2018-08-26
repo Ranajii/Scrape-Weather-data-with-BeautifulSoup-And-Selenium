@@ -1,4 +1,4 @@
-'''This program prints next 4 days temperature along with todays temperature
+'''This program prints next 4 days temperature along with humidity
 
 A practical use of BeautifulSoup'''
 
@@ -52,26 +52,3 @@ ed = 1
 for i in range(0,4):
     print('Day',ed,'Temp: ',day[i],'|','Humidity: ',humidity[i])
     ed = ed+1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
